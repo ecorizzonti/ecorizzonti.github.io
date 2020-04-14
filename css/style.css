@@ -18,16 +18,40 @@ nav .brand-logo {
   font-family: 'Oswald', arial;
 }
 
+nav .brand-logo {
+  padding: 0  10px;
+  left: 0%;
+  transform: translateX(0%);
+}
+
+.ofn-logo {
+  padding: 0  10px;
+  left: 30%;
+  transform: translateX(0%);
+}
+
+nav .sidenav-trigger {
+  margin: 0 1px;
+}
+
+nav .sidenav-trigger {
+    float: right;
+}
+
 .nav-wrapper {
-    padding: 0 50px;
+  padding: 0  10px;
 }
 
 p {
   line-height: 2rem;
 }
 
+.button-collapse {
+  color: #ef3550;
+}
+
 .sidenav-trigger {
-  color: #26a69a;
+  color: #ef3550;
 }
 
 .parallax-container {
@@ -36,7 +60,9 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
+
+.section-intro {
+    height: 100%;
     width: 100%;
   }
 
@@ -55,8 +81,13 @@ p {
     position: absolute;
     top: 40%;
   }
+
   #index-banner .section {
     top: 10%;
+  }
+
+    .nav-wrapper {
+    padding: 0  10px;
   }
 }
 
@@ -64,6 +95,13 @@ p {
   #index-banner .section {
     top: 0;
   }
+
+  .nav-wrapper {
+    padding: 0  10px;
+  }
+
+
+
 }
 
 .col-servizio {

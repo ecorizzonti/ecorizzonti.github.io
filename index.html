@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -9,34 +9,42 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <!-- Font personalizzato -->
+
+  <!-- Font oogle -->
  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway&display=swap" rel="stylesheet">
 
+  <!-- Font Awesome -->
+ <link rel="stylesheet" href="font-awesome/css/font/font-awesome.min.css">
 </head>
-<body>
-  <!-- Navbar fissa-->
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper white">  
-        <a href="#" class="brand-logo">Fi.Co.S.</a>
-		<a href="https://staging.pixelwise.it/" class="OFN-logo"><img src="logo_red.png" height="40" vspace="12" hspace="100"></a>
-        	
-        <ul class="right hide-on-med-and-down">
 
-          <li><a href="rete.html">la rete</a></li>
-          <li><a href="dove.html">dove siamo</a></li>
-          <li><a href="https://staging.pixelwise.it/groups/fi-co-s#/map">la bottega online</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>    
+<body>
+
+
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper">
+      <a id="logo-container" href="#" class="brand-logo">Fi.Co.S.</a>
+      <a id="ofn-container" href="https://staging.pixelwise.it/" class="ofn-logo"><img src="logo_red.png" height="40" vspace="10" class="ofn-logo"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="rete.html">la rete</a></li>
+        <li><a href="progetto.html">il progetto</a></li>
+        <li><a href="https://staging.pixelwise.it/groups/fi-co-s#/map">online</a></li>
+      </ul>
+
+      <ul class="sidenav" id="nav-mobile">
+        <li><a href="rete.html">la rete</a></li>
+        <li><a href="progetto.html">il progetto</a></li>
+        <li><a href="https://staging.pixelwise.it/groups/fi-co-s#/map">online</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
 
   <!-- Intro-->
   <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
+    <div class="section-intro no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center white-text">acquista direttamente dai produttori della rete</h1>
+        <h1 class="header center white-text">acquista dai produttori della rete</h1>
         <div class="row center">
           <h5 class="header-subtitle col s12 light">Partecipa anche tu a un modello di sviluppo sostenibile per il territorio</h5>
         </div>
@@ -70,7 +78,7 @@
 	        <div class="col s12 m4">
 	          <div class="icon-block">
 	            <h2 class="center red-text"><i class="material-icons">map</i></h2>
-	            <h5 class="center">il progetto</h5>
+	            <h5 class="center">dove siamo</h5>
 
 	            <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus.</p>
 	          </div>
